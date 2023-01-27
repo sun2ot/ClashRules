@@ -1,3 +1,13 @@
 payload:
-  - '+.4diyibanzhu.cc'
-  - '+.xn--l6qx319s1a.com'
+# type: classical
+  - DOMAIN-SUFFIX,4diyibanzhu.cc
+  - DOMAIN-SUFFIX,xn--l6qx319s1a.com
+  
+  # 代理访问哔哩哔哩港澳台后,需采用以下策略进行兜底
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,biligame.com
+  - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilivideo.cn
