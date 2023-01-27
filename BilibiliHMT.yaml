@@ -1,7 +1,6 @@
 payload:
   # 内容：BilibiliHMT 哔哩哔哩 港澳台番剧
   # 数量：18条
-  - IP-CIDR,103.151.150.0/23
   - DOMAIN,app.biliapi.net
   - DOMAIN,grpc.biliapi.net
   # ------以下的是ACL4SSR的,实测没有上面三条哔哩哔哩无法搜索港澳台资源
