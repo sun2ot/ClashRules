@@ -1,3 +1,4 @@
+```yaml
 rule-providers:
   CustomizeProxy:
     type: http
@@ -85,3 +86,4 @@ rules:
   - RULE-SET,direct,DIRECT
   - GEOIP,LAN,DIRECT
   - MATCH,🚀 节点选择
+```
