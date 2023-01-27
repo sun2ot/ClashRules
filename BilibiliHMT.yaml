@@ -1,9 +1,8 @@
 payload:
   # 内容：BilibiliHMT 哔哩哔哩 港澳台番剧
-  # 数量：18条
+  # 对比：https://cdn.jsdelivr.net/gh/zhihang-yi/pic2cloud@main/QQ截图20230127232644.png
   - DOMAIN,app.biliapi.net
   - DOMAIN,grpc.biliapi.net
-  # ------以下的是ACL4SSR的,实测没有上面三条哔哩哔哩无法搜索港澳台资源
   - DOMAIN,p-bstarstatic.akamaized.net
   - DOMAIN,p.bstarstatic.com
   - DOMAIN,upos-bstar-mirrorakam.akamaized.net
@@ -12,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,bilibili.com
   - DOMAIN-SUFFIX,bilibili.tv
+  - IP-CIDR,103.151.150.0/23,no-resolve
   - IP-CIDR,45.43.32.234/32,no-resolve
   - IP-CIDR,119.29.29.29/32,no-resolve
   - IP-CIDR,128.1.62.200/32,no-resolve
