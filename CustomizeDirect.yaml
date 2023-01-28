@@ -11,3 +11,5 @@ payload:
   - DOMAIN-SUFFIX,biligame.net
   - DOMAIN-SUFFIX,bilivideo.com
   - DOMAIN-SUFFIX,bilivideo.cn
+  
+  - DOMAIN-KEYWORD,yyds
