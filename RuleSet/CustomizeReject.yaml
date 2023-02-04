@@ -1,7 +1,9 @@
 payload:
-# 解除夸克浏览器屏蔽
+  # type: classical
+  
+  # 解除夸克浏览器屏蔽
   - DOMAIN-SUFFIX,u3.ucweb.com 
-# 小网站积累ing...
+  # 小网站积累ing...
   - DOMAIN-SUFFIX,huixieshou.com
   - DOMAIN-SUFFIX,imimimi.top
   - DOMAIN-SUFFIX,uanbbf.cn
