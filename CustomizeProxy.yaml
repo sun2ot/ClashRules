@@ -1,3 +1,0 @@
-payload:
-# type: domain
-  - '+.services.googleapis.cn'  # 虽然是cn，但是直连的话 play store 会出现一直 "等待/pending..." 的情况
