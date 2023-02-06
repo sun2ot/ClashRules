@@ -4,24 +4,24 @@ rule-providers:
     type: http
     behavior: domain
     # url: https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/CustomizeProxy.yaml
-    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/CustomizeProxy.yaml
+    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/RuleSet/CustomizeProxy.yaml
     path: ./ruleset/CustomizeProxy.yaml
     interval: 604800
   CustomizeDirect:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/CustomizeDirect.yaml
+    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/RuleSet/CustomizeDirect.yaml
     path: ./ruleset/CustomizeDirect.yaml
   CustomizeReject:
     type: http
     behavior: domain
-    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/CustomizeReject.yaml
+    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/RuleSet/CustomizeReject.yaml
     path: ./ruleset/CustomizeReject.yaml
     interval: 604800
   Weibo:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/Weibo.yaml
+    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/RuleSet/Weibo.yaml
     path: ./ruleset/Weibo.yaml
     interval: 604800
   reject:
@@ -45,7 +45,7 @@ rule-providers:
   BilibiliHMT:
     type: http
     behavior: classical
-    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/BilibiliHMT.yaml
+    url: https://cdn.jsdelivr.net/gh/zhihang-yi/ClashRules/RuleSet/BilibiliHMT.yaml
     path: ./ruleset/BilibiliHMT.yaml
     interval: 604800
   SteamCN:
