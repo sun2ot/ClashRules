@@ -1,4 +1,26 @@
+## 上游规则来源
+
+https://github.com/Semporia/Clash
+https://github.com/Loyalsoldier/clash-rules
+https://github.com/ACL4SSR/ACL4SSR
+
 ```yaml
+rules:
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Steam,🚀 节点选择
+  - RULE-SET,Bahamut,📺️ 动画疯
+  - RULE-SET,BilibiliHMT,🅱 Bilibili
+  - RULE-SET,Microsoft,Ⓜ️ Microsoft
+  - RULE-SET,Weibo,🚀 节点选择
+  - RULE-SET,CustomizeDirect,🎯 全球直连
+  - RULE-SET,CustomizeProxy,🚀 节点选择
+  - RULE-SET,CustomizeReject,🛑 拦截
+  - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,cncidr,🎯 全球直连
+  - RULE-SET,direct,🎯 全球直连
+  - RULE-SET,reject,🛑 拦截
+  - MATCH,🐟 漏网之鱼
 rule-providers:
   SteamCN:
     type: http
@@ -23,6 +45,12 @@ rule-providers:
     behavior: classical
     url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/BilibiliHMT.yaml
     path: ./providers/rule-provider_BilibiliHMT.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/Semporia/Clash/master/Rule/Microsoft.yaml
+    path: ./providers/rule-provider_Microsoft.yaml
     interval: 86400
   Weibo:
     type: http
@@ -78,19 +106,4 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
     path: ./providers/rule-provider_reject.yaml
     interval: 86400
-rules:
-  - RULE-SET,SteamCN,🎯 全球直连
-  - RULE-SET,Steam,🚀 节点选择
-  - RULE-SET,Bahamut,📺️ 动画疯
-  - RULE-SET,BilibiliHMT,🅱 Bilibili
-  - RULE-SET,Weibo,🚀 节点选择
-  - RULE-SET,CustomizeDirect,🎯 全球直连
-  - RULE-SET,CustomizeProxy,🚀 节点选择
-  - RULE-SET,CustomizeReject,🛑 拦截
-  - RULE-SET,telegramcidr,🚀 节点选择
-  - RULE-SET,proxy,🚀 节点选择
-  - RULE-SET,cncidr,🎯 全球直连
-  - RULE-SET,direct,🎯 全球直连
-  - RULE-SET,reject,🛑 拦截
-  - MATCH,🐟 漏网之鱼
 ```
