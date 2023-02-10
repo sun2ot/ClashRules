@@ -13,3 +13,6 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.cn
   
   - DOMAIN-KEYWORD,yyds
+
+  # B站短链接生成工具箱
+  - DOMAIN,www.bilitools.top
