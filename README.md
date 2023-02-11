@@ -1,8 +1,10 @@
 ## 上游规则来源
 
-https://github.com/Semporia/Clash
-https://github.com/Loyalsoldier/clash-rules
-https://github.com/ACL4SSR/ACL4SSR
+1. [Semporia：Clash](https://github.com/Semporia/Clash)
+
+2. [Loyalsoldier：clash-rules](https://github.com/Loyalsoldier/clash-rules)
+
+3. [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
 ```yaml
 rules:
