@@ -16,3 +16,6 @@ payload:
 
   # B站短链接生成工具箱
   - DOMAIN,www.bilitools.top
+
+  # E5续订
+  - DOMAIN-SUFFIX,qyi.io
