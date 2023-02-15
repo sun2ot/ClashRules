@@ -1,4 +1,4 @@
-## 上游规则来源
+## 部分规则来源
 
 1. [Semporia：Clash](https://github.com/Semporia/Clash)
 
