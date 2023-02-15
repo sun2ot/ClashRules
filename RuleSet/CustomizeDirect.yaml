@@ -19,7 +19,11 @@ payload:
 
   # E5续订
   - DOMAIN-SUFFIX,qyi.io
- 
+  
+  # 123网盘
+  - DOMAIN-SUFFIX,123-186-146-244.d.cjjd20.com
+
+
   # tun mode
   - PROCESS-NAME,QQ.exe
   - PROCESS-NAME,QQMusic.exe
