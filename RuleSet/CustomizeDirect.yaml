@@ -28,6 +28,7 @@ payload:
   - PROCESS-NAME,QQ.exe
   - PROCESS-NAME,QQMusic.exe
   - PROCESS-NAME,QQGuild.exe
+  - PROCESS-NAME,QQProtect.exe
   - PROCESS-NAME,Thunder
   - PROCESS-NAME,DownloadService
   - PROCESS-NAME,qBittorrent
