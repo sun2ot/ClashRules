@@ -4,7 +4,7 @@ emoji = "🏳️‍🌈"
 
 # 热门地区
 [[emoji]]
-match = "(Hong.*?Kong|HK|[^-]港)"
+match = "(HK|香港)"
 emoji = "🇭🇰"
 
 [[emoji]]
