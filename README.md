@@ -8,12 +8,13 @@
 
 ```yaml
 rules:
-  - RULE-SET,SteamCN,🎯 全球直连
-  - RULE-SET,Steam,🚀 节点选择
+  - RULE-SET,SteamCN,🎮️ Steam
+  - RULE-SET,Steam,🎮️ Steam
   - RULE-SET,Bahamut,📺️ 动画疯
   - RULE-SET,BilibiliHMT,🅱 Bilibili
   - RULE-SET,Microsoft,Ⓜ️ Microsoft
-  - RULE-SET,Weibo,🚀 节点选择
+  - RULE-SET,Weibo,👊 微博
+  - RULE-SET,GoogleVoice,📞 GoogleVoice
   - RULE-SET,CustomizeDirect,🎯 全球直连
   - RULE-SET,CustomizeProxy,🚀 节点选择
   - RULE-SET,CustomizeReject,🛑 拦截
@@ -45,7 +46,7 @@ rule-providers:
   BilibiliHMT:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/BilibiliHMT.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/BilibiliHMT.yaml
     path: ./providers/rule-provider_BilibiliHMT.yaml
     interval: 86400
   Microsoft:
@@ -57,25 +58,31 @@ rule-providers:
   Weibo:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/Weibo.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/Weibo.yaml
     path: ./providers/rule-provider_Weibo.yaml
+    interval: 86400
+  GoogleVoice:
+    type: http
+    behavior: classical
+    url: https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
+    path: ./providers/rule-provider_GoogleVoice.yaml
     interval: 86400
   CustomizeDirect:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/CustomizeDirect.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml
     path: ./providers/rule-provider_CustomizeDirect.yaml
     interval: 86400
   CustomizeProxy:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/CustomizeProxy.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeProxy.yaml
     path: ./providers/rule-provider_CustomizeProxy.yaml
     interval: 86400
   CustomizeReject:
     type: http
     behavior: classical
-    url: https://ghproxy.com/https://raw.githubusercontent.com/zhihang-yi/ClashRules/main/RuleSet/CustomizeReject.yaml
+    url: https://ghproxy.com/https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeReject.yaml
     path: ./providers/rule-provider_CustomizeReject.yaml
     interval: 86400
   telegramcidr:
