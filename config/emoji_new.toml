@@ -4,11 +4,11 @@ emoji = "🏳️‍🌈"
 
 # 热门地区
 [[emoji]]
-match = "(HK|香港|[京海扬]港|(?<=香港)深港)"
+match = "(HongKong|HK|香港|[京海扬]港|(?<=香港)深港)"
 emoji = "🇭🇰"
 
 [[emoji]]
-match = "(TW|Taiwan|新北|彰化|台湾|[^-]台)"
+match = "(TW|Tai[wW]an|新北|彰化|台湾|[^-]台)"
 emoji = "🇹🇼"
 
 [[emoji]]
