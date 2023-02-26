@@ -1,6 +1,6 @@
 payload:
   # type: classical
-  - DOMAIN-SUFFIX,4diyibanzhu.cc
+
   - DOMAIN-SUFFIX,xn--l6qx319s1a.com
   
   # 代理访问哔哩哔哩港澳台后,需采用以下策略进行兜底
@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,bilivideo.cn
   
   - DOMAIN-KEYWORD,yyds
+  - DOMAIN-KEYWORD,diyibanzhu
 
   # B站短链接生成工具箱
   - DOMAIN,www.bilitools.top
@@ -23,6 +24,9 @@ payload:
   # 123网盘
   - DOMAIN-SUFFIX,123-186-146-244.d.cjjd20.com
 
+  # 原神
+  - DOMAIN-KEYWORD,mihoyo
+  - PROCESS-NAME,YuanShen.exe
 
   # tun mode
   - PROCESS-NAME,QQ.exe
