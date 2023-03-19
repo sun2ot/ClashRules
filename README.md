@@ -17,16 +17,10 @@
 
 1. 本地部署/线上部署 `subconverter`，见[github·subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
 2. 复制仓库中的 `config/test.ini` 文件到 `subconverter` 根路径下的 `config/` 目录中
-3. 复制仓库中的 `config/emoji_new.toml` 文件到 `subconverter` 根路径下的 `snippets/` 目录中
 4. `all_base.tpl` 同理，建议阅读 `subconverter` 文档后**自行决定是否替换**
-5. 修改 `subconverter` 根路径下的 `pref.toml` ，将 `[[emojis.emoji]]` 和 `api_access_token` 两部分改为如下所示
+5. 修改 `subconverter` 根路径下的 `pref.toml` ，将 `api_access_token` 改为如下所示
 ```toml
 api_access_token = "随便设个密码"
-
-[[emojis.emoji]]
-#match = '(流量|时间|应急)'
-#emoji = '🏳️‍🌈'
-import = "snippets/emoji_new.toml"
 ```
 6. 在 `subconverter` 根路径下的 `profiles/` 目录下(没有这个目录就建一个)，新建 `任意名称.ini` 文件，内容如下
 ```ini
@@ -47,8 +41,6 @@ expand=false
 2. 推荐在生成的订阅链接末尾加上参数 `&expand=false`
 3. 其他更多参数见 `subconverter` [官方文档](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#%E8%B0%83%E7%94%A8%E8%AF%B4%E6%98%8E-%E8%BF%9B%E9%98%B6)
 
-> 温馨提示：我懒得写 `.list` 格式的 emoji 配置文件，因此 `emoji_new.toml` 是无法在 `.ini` 配置文件中远程引用的
-> 而且订阅转换网站的 emoji 一般都很全，也没啥必要用我的hhhh
 
 ```yaml
 rules:
