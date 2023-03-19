@@ -1,3 +1,5 @@
+> 如 emoji 显示异常，如不显示、与目标国家不符等，请提交 issue
+
 ## 部分规则来源
 
 1. [Semporia：Clash](https://github.com/Semporia/Clash)
