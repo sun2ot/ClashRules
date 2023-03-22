@@ -1,7 +1,10 @@
 payload:
   # type: classical
 
+  # 部分机场
   - DOMAIN-SUFFIX,xn--l6qx319s1a.com
+  - DOMAIN-SUFFIX,95working.xyz
+  - DOMAIN-SUFFIX,996cat.com
   
   # 代理访问哔哩哔哩港澳台后,需采用以下策略进行兜底
   - DOMAIN-KEYWORD,bilibili
