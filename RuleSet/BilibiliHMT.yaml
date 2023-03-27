@@ -1,7 +1,6 @@
 payload:
   # 内容：BilibiliHMT 哔哩哔哩 港澳台番剧
   # type: classical
-  # 对比：https://cdn.jsdelivr.net/gh/zhihang-yi/pic2cloud@main/QQ截图20230127232644.png
   - DOMAIN,app.biliapi.net
   - DOMAIN,grpc.biliapi.net
   - DOMAIN,p-bstarstatic.akamaized.net
@@ -18,6 +17,8 @@ payload:
   - IP-CIDR,128.1.62.200/32,no-resolve
   - IP-CIDR,128.1.62.201/32,no-resolve
   - IP-CIDR,150.116.92.250/32,no-resolve
+  - IP-CIDR,164.52.33.178/32,no-resolve
+  - IP-CIDR,164.52.33.182/32,no-resolve
   - IP-CIDR,164.52.76.18/32,no-resolve
   - IP-CIDR,203.107.1.33/32,no-resolve
   - IP-CIDR,203.107.1.34/32,no-resolve
