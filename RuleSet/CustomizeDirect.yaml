@@ -6,15 +6,6 @@ payload:
   - DOMAIN-SUFFIX,95working.xyz
   - DOMAIN-SUFFIX,996cat.com
   
-  # 代理访问哔哩哔哩港澳台后,需采用以下策略进行兜底
-  - DOMAIN-KEYWORD,bilibili
-  - DOMAIN-SUFFIX,biliapi.com
-  - DOMAIN-SUFFIX,biliapi.net
-  - DOMAIN-SUFFIX,biligame.com
-  - DOMAIN-SUFFIX,biligame.net
-  - DOMAIN-SUFFIX,bilivideo.com
-  - DOMAIN-SUFFIX,bilivideo.cn
-  
   - DOMAIN-KEYWORD,yyds
   - DOMAIN-KEYWORD,diyibanzhu
 
