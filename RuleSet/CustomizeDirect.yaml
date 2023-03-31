@@ -22,6 +22,9 @@ payload:
   - DOMAIN-KEYWORD,mihoyo
   - PROCESS-NAME,YuanShen.exe
 
+  # 狐猴浏览器
+  - DOMAIN-SUFFIX,lemurbrowser.com
+
   # tun mode
   - PROCESS-NAME,QQ.exe
   - PROCESS-NAME,QQMusic.exe
