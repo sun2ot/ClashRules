@@ -3,6 +3,10 @@ payload:
   
   # 解除夸克浏览器屏蔽
   - DOMAIN-SUFFIX,u3.ucweb.com 
+
+  # 网易邮箱大师APP
+  - DOMAIN-SUFFIX,nex.163.com
+  
   # 小网站积累ing...
   - DOMAIN-SUFFIX,huixieshou.com
   - DOMAIN-SUFFIX,imimimi.top
