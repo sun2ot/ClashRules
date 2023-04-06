@@ -4,6 +4,7 @@ payload:
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32
+  - DOMAIN-SUFFIX,xue1888.com
 
   # 部分机场
   - DOMAIN-SUFFIX,xn--l6qx319s1a.com
