@@ -1,6 +1,9 @@
 # 用于自建节点，避免万人骑
 payload:
+  # openai
   - DOMAIN-SUFFIX,openai.com
+
+  # e站
   - DOMAIN-SUFFIX,exhentai.org
   - DOMAIN-SUFFIX,e-hentai.org
   - DOMAIN-SUFFIX,forums.e-hentai.org

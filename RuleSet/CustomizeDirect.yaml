@@ -8,8 +8,6 @@ payload:
 
   # 部分机场
   - DOMAIN-SUFFIX,xn--l6qx319s1a.com
-  - DOMAIN-SUFFIX,95working.xyz
-  - DOMAIN-SUFFIX,996cat.com
   
   - DOMAIN-KEYWORD,yyds
   - DOMAIN-KEYWORD,diyibanzhu
