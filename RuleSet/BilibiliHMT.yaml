@@ -9,7 +9,7 @@ payload:
   - DOMAIN,upos-bstar1-mirrorakam.akamaized.net
   - DOMAIN,upos-hz-mirrorakam.akamaized.net
   - DOMAIN-SUFFIX,acgvideo.com
-  - DOMAIN-SUFFIX,api.bilibili.com
+  - DOMAIN-SUFFIX,api.bilibili.com # 可开启HMT弹幕,评论区; 可改评论区ip; bli漫游仍识别为cn(即显示追番(港澳台)); 开启代理看国内视频不卡!
   - DOMAIN-SUFFIX,bilibili.tv
   - IP-CIDR,103.151.150.0/23,no-resolve
   - IP-CIDR,45.43.32.234/32,no-resolve
