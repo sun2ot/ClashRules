@@ -14,18 +14,23 @@ external-controller: :9090
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
+  enhanced-mode: fake-ip
   nameserver:
+    - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
-    - https://223.6.6.6/dns-query
-  fallback-filter:
-    geoip: false
-    ipcidr:
-      - 0.0.0.0/32
-      - 240.0.0.0/4
-  listen: 0.0.0.0:53
-  fallback:
-    - tls://8.8.4.4:853
-    - https://1.1.1.1/dns-query
+  fallback: []
+  fake-ip-filter:
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - +.stun.*.*.*.*.*
+    - +.microsoft.com
+    - "*.msftncsi.com"
+    - +.msftconnecttest.com
+    - WORKGROUP
+    - +.qq.com
+    - "*.lan"
+    - +.baidu.com
 {% endif %}
 {% if local.clash.new_field_name == "true" %}
 proxies: ~
