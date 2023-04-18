@@ -3,12 +3,12 @@
 setlocal enabledelayedexpansion
 
 set INPUTFILE=cnip.txt
-set OUTPUTFILE=cnip.yaml
+set OUTPUTFILE=cnip-no-resolve.yaml
 
 echo payload:>> %OUTPUTFILE%
 
 for /f "tokens=* delims=" %%a in (%INPUTFILE%) do (
-  set LINE=  - IP-CIDR,%%a
+  set LINE=  - IP-CIDR,%%a,no-resolve
   echo !LINE!>> %OUTPUTFILE%
 )
 
