@@ -37,5 +37,3 @@ payload:
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,baidunetdisk.exe
-
-  - IP-CIDR,14.17.92.19/32
