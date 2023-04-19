@@ -37,3 +37,4 @@ payload:
   - PROCESS-NAME,Thunder.exe
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,aDrive.exe
