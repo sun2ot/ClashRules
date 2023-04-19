@@ -1,6 +1,12 @@
 payload:
   # type: classical
 
+  # others
+  - DOMAIN-SUFFIX,adunm.top
+
+  # 阿里云
+  - DOMAIN-KEYWORD,account-cn.alibabacloud.com
+
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32,no-resolve
