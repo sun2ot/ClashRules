@@ -6,12 +6,15 @@
 <h4 align="center">Personal use Clash rules, checking for omissions and filling gaps.</h4>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/sun2ot/ClashRules">
-  <img src="https://img.shields.io/badge/adapt-subconverter-green">
+  <a href="https://github.com/sun2ot/ClashRules/commits/main">
+    <img src="https://img.shields.io/github/last-commit/sun2ot/ClashRules" alt="Github Commits">
+  </a>
+  <a href="https://github.com/tindy2013/subconverter">
+    <img src="https://img.shields.io/badge/adapt-subconverter-green" alt="subconverter">
+  </a>
 </p>
 
-> 如 emoji 显示异常，如不显示、与目标国家不符等，请提交 issue
-
+> 如 `config/emoji_new.toml|list` 显示异常，与目标国家样式不符等，请提交 issue
 
 ## 一、部分规则来源
 
