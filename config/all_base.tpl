@@ -31,7 +31,6 @@ dns:
     - +.qq.com
     - "*.lan"
     - +.baidu.com
-    - +.aliyun.com
     - +.alicdn.com
 {% endif %}
 {% if local.clash.new_field_name == "true" %}
