@@ -183,4 +183,4 @@ rule-providers:
     path: ./providers/rule-provider_cnip.yaml
     interval: 86400
 ```
-
+  
