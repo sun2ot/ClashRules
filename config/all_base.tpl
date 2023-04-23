@@ -14,6 +14,7 @@ external-controller: :9090
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
+  listen: 0.0.0.0:53
   nameserver:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
