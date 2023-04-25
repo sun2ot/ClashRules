@@ -1,6 +1,9 @@
 payload:
   # type: classical
 
+  # 临时
+  - DOMAIN-SUFFIX,b23.tv
+
   # others
   - DOMAIN-SUFFIX,adunm.top
 
@@ -25,7 +28,7 @@ payload:
   - DOMAIN-SUFFIX,qyi.io
   
   # 123网盘
-  - DOMAIN-SUFFIX,123-186-146-244.d.cjjd20.com
+  - DOMAIN-SUFFIX,cjjd20.com
 
   # 原神
   - DOMAIN-KEYWORD,mihoyo
