@@ -20,3 +20,6 @@ payload:
   - DOMAIN-SUFFIX,jshvb.com
   - DOMAIN-SUFFIX,bmmogb.xyz
   - DOMAIN-SUFFIX,kcqmqh.xyz
+
+  # 据说是高通的?
+  - DOMAIN-KEYWORD,izatcloud.net
