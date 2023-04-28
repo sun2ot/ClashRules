@@ -28,4 +28,4 @@ jobs:
         message: "Merge files from multiple repositories"
         add: .
         push: true
-        token: ${{ secrets.action-key }}
+        token: ${{ secrets.ACTION_KEY }}
