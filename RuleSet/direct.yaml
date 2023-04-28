@@ -1,14 +1,8 @@
 payload:
   # type: classical
 
-  # 临时
-  - DOMAIN-SUFFIX,b23.tv
-
   # others
   - DOMAIN-SUFFIX,adunm.top
-
-  # 阿里云
-  - DOMAIN-KEYWORD,account-cn.alibabacloud.com
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
