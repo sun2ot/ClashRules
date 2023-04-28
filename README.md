@@ -16,22 +16,13 @@
 
 > 如 `config/emoji_new.toml|list` 显示异常，与目标国家样式不符等，请提交 issue
 
-```
-2023-04-25
-观察到上游的规则实在是太臃肿了，各种重复的、不存在的域名大量充斥列表，例如b23.tv同时出现在 direct 和 proxy 中
-所以先打补丁凑合用吧，后面慢慢来精简
-咱就是说正经的公司谁一天天换自己的域名......人家 acl4ssr 那么久才更新一次不也挺好用的
-```
-
 ## 一、部分规则来源
 
 1. [Semporia：Clash](https://github.com/Semporia/Clash)
 
-2. [Loyalsoldier：clash-rules](https://github.com/Loyalsoldier/clash-rules)
+2. [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 
-3. [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
-
-4. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
+3. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 
 >china_ip_list 说明
 >1. `RuleSet/cnip/`中的 ip 地址来源于[china_ip_list](https://github.com/17mon/china_ip_list)
