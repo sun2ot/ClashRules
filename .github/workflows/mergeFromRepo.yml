@@ -15,10 +15,9 @@ jobs:
 
     - name: Merge files
       run: |
+        curl -L https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml > direct.yaml
         curl -L https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml > ChinaDomain.yaml
-        curl -L https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml > CustomizeDirect.yaml
-        sed -i '1s/payload: //' ChinaDomain.yaml
-        cat CustomizeDirect.yaml > direct.yaml
+        cat ChinaDomain.yaml | sed 1d >> direct.yaml
 
     - name: Commit changes and push to repository
       uses: EndBug/add-and-commit@v7
