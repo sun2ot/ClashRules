@@ -6,6 +6,7 @@ payload:
 
   - DOMAIN-KEYWORD,teambition
   - DOMAIN-SUFFIX,cdntips.net
+  - DOMAIN-SUFFIX,runnergo.com
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
