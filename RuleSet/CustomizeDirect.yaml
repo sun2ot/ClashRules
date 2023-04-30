@@ -7,6 +7,8 @@ payload:
   - DOMAIN-KEYWORD,teambition
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,runnergo.com
+  - DOMAIN-KEYWORD,itab
+  - DOMAIN-SUFFIX,codelife.cc
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
