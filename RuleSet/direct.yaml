@@ -4,6 +4,8 @@ payload:
   # others
   - DOMAIN-SUFFIX,adunm.top
 
+  - DOMAIN-KEYWORD,teambition
+
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32,no-resolve
