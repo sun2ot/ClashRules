@@ -322,6 +322,10 @@ match = "(RUS|Russia|Moscow|Petersburg|Siberia|伯力|莫斯科|圣彼得堡|西
 emoji = "🇷🇺"
 
 [[emoji]]
+match = "(Syria|叙利亚)"
+emoji = "🇸🇾"
+
+[[emoji]]
 match = "(Arabia|沙特)"
 emoji = "🇸🇦"
 
