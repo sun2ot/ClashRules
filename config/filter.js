@@ -1,5 +1,5 @@
 function filter(node) {
-    if(node.Remark.includes(`伊拉克`))
+    if(node.Remark.includes('伊拉克'))
         return false;
     return true;
 }
