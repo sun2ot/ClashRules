@@ -29,6 +29,7 @@ payload:
   
   # 123网盘
   - DOMAIN-SUFFIX,cjjd20.com
+  - DOMAIN-SUFFIX,cjjd15.com
 
   # 原神
   - DOMAIN-KEYWORD,mihoyo
