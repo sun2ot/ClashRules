@@ -1,6 +1,10 @@
 payload:
   # type: classical
   
+  # 百度网盘
+  - DOMAIN-SUFFIX,gamein.baidu.com
+  - DOMAIN-SUFFIX,wan.baidu.com
+
   # 解除夸克浏览器屏蔽
   - DOMAIN-SUFFIX,u3.ucweb.com 
   
