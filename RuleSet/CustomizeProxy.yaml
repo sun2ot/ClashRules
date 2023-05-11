@@ -2,6 +2,7 @@ payload:
   # type: classical
   
   - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,gitmind
 
   # telegram ip-cidr add no-resolve
   - IP-CIDR,91.105.192.0/23,no-resolve
