@@ -9,6 +9,7 @@ payload:
   - DOMAIN-KEYWORD,itab
   - DOMAIN-SUFFIX,codelife.cc
   - DOMAIN-SUFFIX,iconsapi.com
+  - DOMAIN-SUFFIX,verysync.com
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
