@@ -12,6 +12,7 @@ payload:
   - DOMAIN-SUFFIX,verysync.com
   - DOMAIN-SUFFIX,ggcx.com
   - DOMAIN-SUFFIX,5T5.top
+  - DOMAIN-SUFFIX,banlikanban.com
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
