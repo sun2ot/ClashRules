@@ -27,3 +27,11 @@ payload:
 
   # 据说是高通的?
   - DOMAIN-KEYWORD,izatcloud.net
+
+  # 禁欲
+  - DOMAIN-KEYWORD,yyds
+  - DOMAIN-KEYWORD,diyibanzhu
+  - DOMAIN-SUFFIX,hanime1.me
+  - DOMAIN-KEYWORD,18comic
+  - DOMAIN-SUFFIX,avbebe.com
+  - DOMAIN-KEYWORD,01bz

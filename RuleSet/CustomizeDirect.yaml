@@ -11,6 +11,7 @@ payload:
   - DOMAIN-SUFFIX,iconsapi.com
   - DOMAIN-SUFFIX,verysync.com
   - DOMAIN-SUFFIX,ggcx.com
+  - DOMAIN-SUFFIX,5T5.top
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
@@ -20,8 +21,8 @@ payload:
   # 部分机场
   - DOMAIN-SUFFIX,xn--l6qx319s1a.com
   
-  - DOMAIN-KEYWORD,yyds
-  - DOMAIN-KEYWORD,diyibanzhu
+  # - DOMAIN-KEYWORD,yyds
+  # - DOMAIN-KEYWORD,diyibanzhu
 
   # B站短链接生成工具箱
   - DOMAIN,www.bilitools.top
