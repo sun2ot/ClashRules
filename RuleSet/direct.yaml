@@ -13,6 +13,7 @@ payload:
   - DOMAIN-SUFFIX,ggcx.com
   - DOMAIN-SUFFIX,5T5.top
   - DOMAIN-SUFFIX,banlikanban.com
+  - DOMAIN-SUFFIX,321.net
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
