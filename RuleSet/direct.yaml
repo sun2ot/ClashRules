@@ -15,6 +15,9 @@ payload:
   - DOMAIN-SUFFIX,banlikanban.com
   - DOMAIN-SUFFIX,321.net
 
+  # 国内cdn
+  - DOMAIN-SUFFIX,tianli0.top
+
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32,no-resolve
