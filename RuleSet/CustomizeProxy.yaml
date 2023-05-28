@@ -13,3 +13,6 @@ payload:
   - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
   - IP-CIDR,185.76.151.0/24,no-resolve
+  - IP-CIDR,192.227.231.178/32,no-resolve
+
+  - DOMAIN-SUFFIX,954001.xyz
