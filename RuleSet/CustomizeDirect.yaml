@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,banlikanban.com
   - DOMAIN-SUFFIX,321.net
   - DOMAIN-SUFFIX,butterpig.top
+  - DOMAIN,blog.085404.xyz
 
   # 国内cdn
   - DOMAIN-SUFFIX,tianli0.top
