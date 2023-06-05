@@ -24,6 +24,8 @@
 
 3. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 
+4. [Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
+
 >china_ip_list 说明
 >1. `RuleSet/cnip/`中的 ip 地址来源于[china_ip_list](https://github.com/17mon/china_ip_list)
 >2. 为适应不同使用场景，统一 `IP-CIDR` 规则为 `clash-classic` 样式
