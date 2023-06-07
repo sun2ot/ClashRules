@@ -28,6 +28,9 @@ payload:
   # 据说是高通的?
   - DOMAIN-KEYWORD,izatcloud.net
 
+  # 广东反诈
+  - IP-CIDR,157.148.47.204/32
+
   # 禁欲
   - DOMAIN-KEYWORD,yyds
   - DOMAIN-KEYWORD,diyibanzhu
