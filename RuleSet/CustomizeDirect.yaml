@@ -17,6 +17,9 @@ payload:
   - DOMAIN-SUFFIX,butterpig.top
   - DOMAIN,blog.085404.xyz
   - DOMAIN,img.085404.xyz
+  - DOMAIN,chatgpt.085404.xuz
+  - DOMAIN,vercelgpt.954001.xyz
+  - DOMAIN,chatgpt1.nextweb.fun
 
   # 国内cdn
   - DOMAIN-SUFFIX,tianli0.top

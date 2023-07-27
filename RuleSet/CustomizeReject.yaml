@@ -30,11 +30,3 @@ payload:
 
   # 广东反诈
   - IP-CIDR,157.148.47.204/32
-
-  # 禁欲
-  - DOMAIN-KEYWORD,yyds
-  - DOMAIN-KEYWORD,diyibanzhu
-  - DOMAIN-SUFFIX,hanime1.me
-  - DOMAIN-KEYWORD,18comic
-  - DOMAIN-SUFFIX,avbebe.com
-  - DOMAIN-KEYWORD,01bz
