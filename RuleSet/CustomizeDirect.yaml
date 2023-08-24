@@ -50,6 +50,9 @@ payload:
   # 狐猴浏览器
   - DOMAIN-SUFFIX,lemurbrowser.com
 
+  # taptap
+  - DOMAIN-SUFFIX,tapdb.net
+
   # tun mode
   - PROCESS-NAME,QQ.exe
   - PROCESS-NAME,QQMusic.exe
