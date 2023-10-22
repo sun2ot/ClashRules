@@ -1,0 +1,10 @@
+payload:
+  # type: classical
+  # 学术资源(用于校方购买的数据库)
+
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,wiley.com
