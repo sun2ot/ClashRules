@@ -23,6 +23,7 @@ payload:
 
   # 国内cdn
   - DOMAIN-SUFFIX,tianli0.top
+  - DOMAIN,chatgpt.085404.xyz
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
