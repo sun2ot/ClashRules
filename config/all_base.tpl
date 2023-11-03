@@ -14,18 +14,22 @@ external-controller: :9090
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
-  listen: 0.0.0.0:53
   nameserver:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
   fallback:
     - https://1.1.1.1/dns-query
     - tls://8.8.8.8:853
   fallback-filter:
-    geoip: false
+    geoip: true
+    geoip-code: CN
     ipcidr:
-      - 0.0.0.0/32
       - 240.0.0.0/4
+      - 127.0.0.0/8
+      - 0.0.0.0/8
 {% endif %}
 # nmmd,fakeip实在不好用
 {% if default(request.clash.dns, "") == "2" %}
