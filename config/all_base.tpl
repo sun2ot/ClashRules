@@ -21,8 +21,14 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   fallback:
+    - tls://1.1.1.1:853
+    - tls://1.0.0.1:853
     - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
     - tls://8.8.8.8:853
+    - tls://8.8.4.4:853
+    - https://223.5.5.5/dns-query
+    - https://doh.pub/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
