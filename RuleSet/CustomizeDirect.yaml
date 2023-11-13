@@ -6,8 +6,6 @@ payload:
   - DOMAIN-KEYWORD,teambition
   - DOMAIN-SUFFIX,cdntips.net
   - DOMAIN-SUFFIX,runnergo.com
-  - DOMAIN-KEYWORD,itab
-  - DOMAIN-SUFFIX,codelife.cc
   - DOMAIN-SUFFIX,iconsapi.com
   - DOMAIN-SUFFIX,verysync.com
   - DOMAIN-SUFFIX,ggcx.com
@@ -17,13 +15,8 @@ payload:
   - DOMAIN-SUFFIX,butterpig.top
   - DOMAIN,blog.085404.xyz
   - DOMAIN,img.085404.xyz
-  - DOMAIN,chatgpt.085404.xuz
-  - DOMAIN,vercelgpt.954001.xyz
-  - DOMAIN,chatgpt1.nextweb.fun
-
-  # 国内cdn
-  - DOMAIN-SUFFIX,tianli0.top
   - DOMAIN,chatgpt.085404.xyz
+  - DOMAIN,chatgpt1.nextweb.fun
 
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
