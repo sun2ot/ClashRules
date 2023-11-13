@@ -16,6 +16,7 @@ payload:
   - DOMAIN,blog.085404.xyz
   - DOMAIN,img.085404.xyz
   - DOMAIN,chatgpt.085404.xyz
+  - DOMAIN,ghproxy.085404.xyz
   - DOMAIN,chatgpt1.nextweb.fun
 
   # 三方知网
