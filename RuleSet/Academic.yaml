@@ -5,6 +5,7 @@ payload:
   - DOMAIN-SUFFIX,sciencedirect.com
   - DOMAIN-SUFFIX,ieee.org
   - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,webofknowledge.com
   - DOMAIN-SUFFIX,springer.com
   - DOMAIN-SUFFIX,engineeringvillage.com
   - DOMAIN-SUFFIX,wiley.com
