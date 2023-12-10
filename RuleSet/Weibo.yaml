@@ -1,8 +1,8 @@
 payload:
   # 方便切换微博的IP地址,有助于更好地表达爱国之情
   # type: classical
-  - DOMAIN-SUFFIX,sina.com.cn
+  - DOMAIN-KEYWORD,weibo
   - DOMAIN-SUFFIX,weibo.cn
-  - DOMAIN-SUFFIX,sinaimg.cn
-  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibocdn.com
+  - DOMAIN-SUFFIX,weibocdn.cn
 
