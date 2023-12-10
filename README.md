@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">
+  <img src="./Clash_Logo.png" alt="Clash" width="200">
   <br>ClashRules<br>
 </h1>
 
@@ -27,7 +27,7 @@
 4. [Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
 
 >china_ip_list 说明
->1. `RuleSet/cnip/`中的 ip 地址来源于[easymosdns](https://github.com/pmkol/easymosdns)
+>1. `RuleSet/cnip/`中的 ip 地址来源于[easymosdns](https://github.com/pmkol/easymosdns)/[china_ip_list](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)
 >2. 为适应不同使用场景，统一 `IP-CIDR` 规则为 `clash-classic` 样式
 >3. 生成方法：将 `cnip.txt` 与批处理文件置于同一目录下，按需双击生成即可
 
