@@ -19,6 +19,9 @@ payload:
   - DOMAIN,ghproxy.085404.xyz
   - DOMAIN,chatgpt1.nextweb.fun
 
+  # cdn
+  - DOMAIN-SUFFIX,jsd.onmicrosoft.cn
+
   # 三方知网
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32
