@@ -7,6 +7,4 @@ payload:
   - DOMAIN-SUFFIX,954001.xyz
   - DOMAIN-SUFFIX,gyan.dev
   
-  # 百度统计 system proxy 似乎无法访问
-  - DOMAIN,hm.baidu.com
   
