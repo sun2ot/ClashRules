@@ -26,9 +26,6 @@ payload:
   - DOMAIN-SUFFIX,xueshu5688.com
   - IP-CIDR,101.42.33.112/32
   - DOMAIN-SUFFIX,xue1888.com
-  
-  # - DOMAIN-KEYWORD,yyds
-  # - DOMAIN-KEYWORD,diyibanzhu
 
   # B站短链接生成工具箱
   - DOMAIN,www.bilitools.top
