@@ -25,6 +25,7 @@
 3. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
 
 4. [Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
+5. [AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 
 >china_ip_list 说明
 >1. `RuleSet/cnip/`中的 ip 地址来源于[easymosdns](https://github.com/pmkol/easymosdns)/[china_ip_list](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)
@@ -42,7 +43,7 @@
 ### 方法2. 自建 subconverter 
 
 1. 本地部署/线上部署 `subconverter`，见[github·subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
-2. 复制仓库中的 `config/test.ini` 文件到 `subconverter` 根路径下的 `config/` 目录中
+2. 复制仓库中的 `config/default.ini` 文件到 `subconverter` 根路径下的 `config/` 目录中
 3. `all_base.tpl` 同理，建议阅读 `subconverter` 文档后**自行决定是否替换**
 4. 修改 `subconverter` 根路径下的 `pref.toml` ，将 `api_access_token` 改为如下所示
     ```toml
@@ -54,7 +55,7 @@
     new_name=true
     url=订阅链接
     clash.dns=1   // 如果没有替换 `all_base.tpl`，就不要加这一行！！！
-    config=config/test.ini
+    config=config/default.ini
     exclude=(套餐|官网|频道)
     filename=任意名称
     expand=false
@@ -67,7 +68,7 @@
 ### 方法3. 利用现成的订阅转换网站，远程引用配置文件
 
 1. 在订阅转换网站的页面中，会有一个下拉菜单让你选择**远程配置**，此处填写\
-`https://raw.githubusercontent.com/sun2ot/ClashRules/main/config/test.ini`
+`https://raw.githubusercontent.com/sun2ot/ClashRules/main/public/default.ini`
     > Tips: 配置文件中已经嵌入了 emoji 配置
 2. 推荐在生成的订阅链接末尾加上参数 `&expand=false`
     > 这会让规则以 `rule-provider` 的形式进行订阅
@@ -78,9 +79,6 @@
 ## 三、附录
 
 自用配置文件粘贴（↓）
-
-> 💧 纯净分组说明：\
-> 此分组内包含 E站、openai 二者的域名，用于私人搭建vps或机场纯净IP线路时使用
 
 ```yaml
 rules:
