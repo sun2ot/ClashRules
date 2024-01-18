@@ -82,6 +82,10 @@
 
 ```yaml
 rules:
+  - RULE-SET,CustomizeDirect,🎯 全球直连
+  - RULE-SET,CustomizeProxy,🚀 节点选择
+  - RULE-SET,CustomizeReject,🚫 拦截
+  - RULE-SET,Academic,🎓 学术
   - RULE-SET,SteamCN,🎮️ Steam
   - RULE-SET,Steam,🎮️ Steam
   - RULE-SET,Bahamut,📺️ 动画疯
@@ -89,17 +93,40 @@ rules:
   - RULE-SET,Microsoft,Ⓜ️ Microsoft
   - RULE-SET,Weibo,👊 微博
   - RULE-SET,GoogleVoice,📞 GoogleVoice
-  - RULE-SET,Pure,💧 纯净
-  - RULE-SET,CustomizeDirect,🎯 全球直连
-  - RULE-SET,CustomizeProxy,🚀 节点选择
-  - RULE-SET,CustomizeReject,🛑 拦截
+  - RULE-SET,OpenAI,🧠 OpenAI
+  - RULE-SET,BardAI,🔭 BardAI
   - RULE-SET,direct,🎯 全球直连
   - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,ghip,🚀 节点选择
   - RULE-SET,cnip,🎯 全球直连
   - RULE-SET,telegramcidr,🚀 节点选择
+  - RULE-SET,AWAvenue-Ads-Rule-Clash,🚫 拦截
   - MATCH,🐟 漏网之鱼
 rule-providers:
+  CustomizeDirect:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml
+    path: ./providers/rule-provider_CustomizeDirect.yaml
+    interval: 86400
+  CustomizeProxy:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeProxy.yaml
+    path: ./providers/rule-provider_CustomizeProxy.yaml
+    interval: 86400
+  CustomizeReject:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeReject.yaml
+    path: ./providers/rule-provider_CustomizeReject.yaml
+    interval: 86400
+  Academic:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/Academic.yaml
+    path: ./providers/rule-provider_Academic.yaml
+    interval: 86400
   SteamCN:
     type: http
     behavior: classical
@@ -142,29 +169,17 @@ rule-providers:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice/GoogleVoice.yaml
     path: ./providers/rule-provider_GoogleVoice.yaml
     interval: 86400
-  Pure:
+  OpenAI:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/Pure.yaml
-    path: ./providers/rule-provider_Pure.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.yaml
+    path: ./providers/rule-provider_OpenAI.yaml
     interval: 86400
-  CustomizeDirect:
+  BardAI:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml
-    path: ./providers/rule-provider_CustomizeDirect.yaml
-    interval: 86400
-  CustomizeProxy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeProxy.yaml
-    path: ./providers/rule-provider_CustomizeProxy.yaml
-    interval: 86400
-  CustomizeReject:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeReject.yaml
-    path: ./providers/rule-provider_CustomizeReject.yaml
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BardAI/BardAI.yaml
+    path: ./providers/rule-provider_BardAI.yaml
     interval: 86400
   direct:
     type: http
@@ -195,6 +210,12 @@ rule-providers:
     behavior: ipcidr
     url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt
     path: ./providers/rule-provider_telegramcidr.yaml
+    interval: 86400
+  AWAvenue-Ads-Rule-Clash:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml
+    path: ./providers/rule-provider_AWAvenue-Ads-Rule-Clash.yaml
     interval: 86400
 ```
   
