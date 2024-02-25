@@ -18,6 +18,7 @@ payload:
   - DOMAIN,chatgpt.085404.xyz
   - DOMAIN,ghproxy.085404.xyz
   - DOMAIN,chatgpt1.nextweb.fun
+  - DOMAIN,whr.085404.xyz
 
   # cdn
   - DOMAIN-SUFFIX,jsd.onmicrosoft.cn
