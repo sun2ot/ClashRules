@@ -11,6 +11,11 @@ allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
+tun:
+  inet4-route-exclude-address:
+    - 172.16.0.0/12
+    - 192.168.0.0/16
+    - 10.0.0.0/8
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
