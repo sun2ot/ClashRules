@@ -1,6 +1,7 @@
 payload:
   # type: classical
-
+  - GEOIP,CN,DIRECT
+  - GEOIP,LAN,DIRECT
   # others
   - DOMAIN-SUFFIX,adunm.top
   - DOMAIN-KEYWORD,teambition

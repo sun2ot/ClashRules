@@ -74,8 +74,6 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: ~
-  - GEOIP,CN,DIRECT
-  - GEOIP,LAN,DIRECT
 {% else %}
 Proxy: ~
 Proxy Group: ~
