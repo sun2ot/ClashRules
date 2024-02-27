@@ -12,6 +12,9 @@
   <a href="https://github.com/tindy2013/subconverter">
     <img src="https://img.shields.io/badge/adapt-subconverter-green" alt="subconverter">
   </a>
+  <a href="https://github.com/MetaCubeX/mihomo">
+    <img src="https://img.shields.io/badge/for-mihomo-brightgreen">
+  </a>
 </p>
 
 > 如 `config/emoji_new.toml|list` 显示异常，与目标国家样式不符等，请提交 issue
@@ -26,6 +29,7 @@
 
 4. [Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
 5. [AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
+6. [ghip](https://github.com/sun2ot/GitHubIP2COS)
 
 >china_ip_list 说明
 >1. `RuleSet/cnip/`中的 ip 地址来源于[easymosdns](https://github.com/pmkol/easymosdns)/[china_ip_list](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)
@@ -82,10 +86,6 @@
 
 ```yaml
 rules:
-  - RULE-SET,CustomizeDirect,🎯 全球直连
-  - RULE-SET,CustomizeProxy,🚀 节点选择
-  - RULE-SET,CustomizeReject,🚫 拦截
-  - RULE-SET,Academic,🎓 学术
   - RULE-SET,SteamCN,🎮️ Steam
   - RULE-SET,Steam,🎮️ Steam
   - RULE-SET,Bahamut,📺️ 动画疯
@@ -103,30 +103,6 @@ rules:
   - RULE-SET,AWAvenue-Ads-Rule-Clash,🚫 拦截
   - MATCH,🐟 漏网之鱼
 rule-providers:
-  CustomizeDirect:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeDirect.yaml
-    path: ./providers/rule-provider_CustomizeDirect.yaml
-    interval: 86400
-  CustomizeProxy:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeProxy.yaml
-    path: ./providers/rule-provider_CustomizeProxy.yaml
-    interval: 86400
-  CustomizeReject:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/CustomizeReject.yaml
-    path: ./providers/rule-provider_CustomizeReject.yaml
-    interval: 86400
-  Academic:
-    type: http
-    behavior: classical
-    url: https://raw.githubusercontent.com/sun2ot/ClashRules/main/RuleSet/Academic.yaml
-    path: ./providers/rule-provider_Academic.yaml
-    interval: 86400
   SteamCN:
     type: http
     behavior: classical

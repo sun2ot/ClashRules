@@ -4,7 +4,11 @@ payload:
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,gitmind
 
-  - DOMAIN-SUFFIX,954001.xyz
+  - DOMAIN-SUFFIX,085404.xyz
   - DOMAIN-SUFFIX,gyan.dev
+  - DOMAIN-SUFFIX,infini-cloud.net
+  - DOMAIN-SUFFIX,obsidian.md
+
+  - PROCESS-NAME,nezha-agent.exe
   
   

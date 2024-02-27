@@ -50,7 +50,13 @@ dns:
   nameserver:
     - https://223.5.5.5/dns-query
     - https://doh.pub/dns-query
-  fallback: []
+  fallback:
+    - tls://1.1.1.1:853
+    - tls://1.0.0.1:853
+    - https://1.1.1.1/dns-query
+    - https://1.0.0.1/dns-query
+    - tls://8.8.8.8:853
+    - tls://8.8.4.4:853
   fake-ip-filter:
     - +.stun.*.*
     - +.stun.*.*.*
@@ -59,9 +65,8 @@ dns:
     - +.microsoft.com
     - "*.msftncsi.com"
     - +.msftconnecttest.com
-    - WORKGROUP
+    - +.msftncsi.com
     - +.qq.com
-    - "*.lan"
     - +.baidu.com
     - +.alicdn.com
 {% endif %}
@@ -69,6 +74,8 @@ dns:
 proxies: ~
 proxy-groups: ~
 rules: ~
+  - GEOIP,CN,DIRECT
+  - GEOIP,LAN,DIRECT
 {% else %}
 Proxy: ~
 Proxy Group: ~
