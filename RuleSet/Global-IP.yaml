@@ -1,3 +1,0 @@
-payload:
-  # type: classical
-  - NOT,((GEOIP,CN))
