@@ -18,29 +18,15 @@ tun:
     - 10.0.0.0/8
 {% if default(request.clash.dns, "") == "1" %}
 dns:
-  enable: true
-  nameserver:
-    - https://223.5.5.5/dns-query
-    - https://doh.pub/dns-query
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-  fallback:
-    - tls://1.1.1.1:853
-    - tls://1.0.0.1:853
-    - https://1.1.1.1/dns-query
-    - https://1.0.0.1/dns-query
-    - tls://8.8.8.8:853
-    - tls://8.8.4.4:853
-    - https://223.5.5.5/dns-query
-    - https://doh.pub/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
-      - 127.0.0.0/8
-      - 0.0.0.0/8
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - dns.msftncsi.com
+    - www.msftncsi.com
+    - www.msftconnecttest.com
+    - "+.cnki.net"
+  nameserver-policy:
+    'geosite:cn': https://223.5.5.5/dns-query
 {% endif %}
 # nmmd,fakeip实在不好用
 {% if default(request.clash.dns, "") == "2" %}
