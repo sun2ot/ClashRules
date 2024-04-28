@@ -8,22 +8,8 @@ payload:
   # 解除夸克浏览器屏蔽
   - DOMAIN-SUFFIX,u3.ucweb.com 
   
-  # 小网站积累ing...
-  - DOMAIN-SUFFIX,huixieshou.com
-  - DOMAIN-SUFFIX,imimimi.top
-  - DOMAIN-SUFFIX,uanbbf.cn
-  - DOMAIN-SUFFIX,bdxiguaimg.com
-  - DOMAIN-SUFFIX,huayiyuan.hk
-  - DOMAIN-SUFFIX,1227kp.vip
-  - DOMAIN-SUFFIX,bujvtes.cn
-  - DOMAIN-SUFFIX,hhaxmm.cn
-  - DOMAIN-SUFFIX,gehgnr.xyz
-  - DOMAIN-SUFFIX,hnws.xyz
-  - DOMAIN-SUFFIX,sstar.xyz
-  - DOMAIN-SUFFIX,lxqwed.top
-  - DOMAIN-SUFFIX,jshvb.com
-  - DOMAIN-SUFFIX,bmmogb.xyz
-  - DOMAIN-SUFFIX,kcqmqh.xyz
+  # PhotoShop 联网
+  - PROCESS-NAME,Photoshop.exe
 
   # 据说是高通的?
   - DOMAIN-KEYWORD,izatcloud.net
