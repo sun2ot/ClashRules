@@ -19,6 +19,7 @@ payload:
   - DOMAIN,ghproxy.085404.xyz
   - DOMAIN,chatgpt1.nextweb.fun
   - DOMAIN,whr.085404.xyz
+  - DOMAIN-SUFFIX,aigcbest.top
 
   # cdn
   - DOMAIN-SUFFIX,jsd.onmicrosoft.cn
