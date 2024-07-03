@@ -12,7 +12,7 @@ mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
 external-controller: :9090
 tun:
-  inet4-route-exclude-address:
+  route-exclude-address:
     - 172.16.0.0/12
     - 192.168.0.0/16
     - 10.0.0.0/8
@@ -21,12 +21,12 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
+    - +.lan
     - dns.msftncsi.com
     - www.msftncsi.com
     - www.msftconnecttest.com
     - "+.cnki.net"
-  nameserver-policy:
-    'geosite:cn': https://223.5.5.5/dns-query
+    - +.qq.com
 {% endif %}
 # nmmd,fakeip实在不好用
 {% if default(request.clash.dns, "") == "2" %}
