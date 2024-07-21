@@ -1,5 +1,6 @@
 payload:
   # type: classical
+  # 由于尽可能想让 MATCH 走直连，所以还是更新一下 proxy 缺失的部分
   
   - DOMAIN-KEYWORD,google
   - DOMAIN-KEYWORD,gitmind
@@ -8,6 +9,9 @@ payload:
   - DOMAIN-SUFFIX,gyan.dev
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,obsidian.md
+  
+  - DOMAIN,zotero-chinese.com
+  - DOMAIN,fonts.gstatic.com
 
   - PROCESS-NAME,nezha-agent.exe
   
