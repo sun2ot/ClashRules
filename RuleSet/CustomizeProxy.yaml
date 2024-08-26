@@ -9,9 +9,9 @@ payload:
   - DOMAIN-SUFFIX,gyan.dev
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,obsidian.md
+  - DOMAIN-SUFFIX,gstatic.com
   
   - DOMAIN,zotero-chinese.com
-  - DOMAIN,fonts.gstatic.com
 
   - PROCESS-NAME,nezha-agent.exe
   
