@@ -22,19 +22,17 @@
 ## 一、部分规则来源
 
 1. [Semporia：Clash](https://github.com/Semporia/Clash)
-
 2. [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
-
 3. [blackmatrix7](https://github.com/blackmatrix7/ios_rule_script)
-
 4. [Loyalsoldier](https://github.com/Loyalsoldier/clash-rules)
 5. [AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 6. [ghip](https://github.com/sun2ot/GitHubIP2COS)
 
->china_ip_list 说明
->1. `RuleSet/cnip/`中的 ip 地址来源于[easymosdns](https://github.com/pmkol/easymosdns)/[china_ip_list](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)
->2. 为适应不同使用场景，统一 `IP-CIDR` 规则为 `clash-classic` 样式
->3. 生成方法：将 `cnip.txt` 与批处理文件置于同一目录下，按需双击生成即可
+> china_ip_list 说明
+>
+> 1. `RuleSet/cnip*` 中的 ip 地址合并于 [china_ip_list](https://github.com/17mon/china_ip_list/blob/master/china_ip_list.txt)/[china-operator-ip](https://github.com/gaoyifan/china-operator-ip)
+> 2. 为适应不同使用场景，统一 `IP-CIDR` 规则为 `clash-classic` 样式
+> 3. 生成方法：将 `cnip.txt` 与批处理文件置于同一目录下，按需双击生成即可
 
 ## 二、使用方法
 
@@ -44,38 +42,39 @@
 
 ---
 
-### 方法2. 自建 subconverter 
+### 方法2. 自建 subconverter
 
 1. 本地部署/线上部署 `subconverter`，见[github·subconverter](https://github.com/tindy2013/subconverter/blob/master/README-cn.md)
 2. 复制仓库中的 `config/default.ini` 文件到 `subconverter` 根路径下的 `config/` 目录中
 3. `all_base.tpl` 同理，建议阅读 `subconverter` 文档后**自行决定是否替换**
 4. 修改 `subconverter` 根路径下的 `pref.toml` ，将 `api_access_token` 改为如下所示
-    ```toml
-    api_access_token = "随便设个密码"
-    ```
+   ```toml
+   api_access_token = "随便设个密码"
+   ```
 5. 在 `subconverter` 根路径下的 `profiles/` 目录下(没有这个目录就建一个)，新建 `任意名称.ini` 文件，内容如下
-    ```ini
-    target=clash
-    new_name=true
-    url=订阅链接
-    clash.dns=1   // 如果没有替换 `all_base.tpl`，就不要加这一行！！！
-    config=config/default.ini
-    exclude=(套餐|官网|频道)
-    filename=任意名称
-    expand=false
-    ```
-6. 通过 `subconverter` 订阅即可，订阅链接为\
-`http(s)://你的ip(:25500)/getprofile?name=profiles/任意名称.ini&token=你设置的密码`
+   ```ini
+   target=clash
+   new_name=true
+   url=订阅链接
+   clash.dns=1   // 如果没有替换 `all_base.tpl`，就不要加这一行！！！
+   config=config/default.ini
+   exclude=(套餐|官网|频道)
+   filename=任意名称
+   expand=false
+   ```
+6. 通过 `subconverter` 订阅即可，订阅链接为
+   `http(s)://你的ip(:25500)/getprofile?name=profiles/任意名称.ini&token=你设置的密码`
 
 ---
 
 ### 方法3. 利用现成的订阅转换网站，远程引用配置文件
 
-1. 在订阅转换网站的页面中，会有一个下拉菜单让你选择**远程配置**，此处填写\
-`https://raw.githubusercontent.com/sun2ot/ClashRules/main/public/default.ini`
-    > Tips: 配置文件中已经嵌入了 emoji 配置
+1. 在订阅转换网站的页面中，会有一个下拉菜单让你选择**远程配置**，此处填写`https://raw.githubusercontent.com/sun2ot/ClashRules/main/public/default.ini`
+   > Tips: 配置文件中已经嵌入了 emoji 配置
+   >
 2. 推荐在生成的订阅链接末尾加上参数 `&expand=false`
-    > 这会让规则以 `rule-provider` 的形式进行订阅
+   > 这会让规则以 `rule-provider` 的形式进行订阅
+   >
 3. 其他更多参数见 `subconverter` [官方文档](https://github.com/tindy2013/subconverter/blob/master/README-cn.md#%E8%B0%83%E7%94%A8%E8%AF%B4%E6%98%8E-%E8%BF%9B%E9%98%B6)
 
 ---
@@ -194,4 +193,3 @@ rule-providers:
     path: ./providers/rule-provider_AWAvenue-Ads-Rule-Clash.yaml
     interval: 86400
 ```
-  
