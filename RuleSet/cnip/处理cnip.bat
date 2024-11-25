@@ -2,7 +2,7 @@
 
 setlocal enabledelayedexpansion
 
-set INPUTFILE=cnip.txt
+set INPUTFILE=.\RuleSet\cnip\merge.txt
 set OUTPUTFILE=cnip.yaml
 
 echo payload:>> %OUTPUTFILE%
