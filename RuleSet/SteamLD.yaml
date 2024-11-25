@@ -1,0 +1,4 @@
+payload:
+  # Steam 登录/下载 (Login/Download)
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,cm.steampowered.com
