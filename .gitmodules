@@ -1,0 +1,4 @@
+[submodule "RuleSet/china-operator-ip"]
+	path = RuleSet/china-operator-ip
+	url = https://github.com/gaoyifan/china-operator-ip
+	branch = ip-lists
