@@ -1,6 +1,11 @@
 payload:
   # type: classical
 
+  # Local
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.168.0.0/16
+
   # others
   - DOMAIN-SUFFIX,adunm.top
   - DOMAIN-KEYWORD,teambition
@@ -60,4 +65,7 @@ payload:
   - PROCESS-NAME,ThunderVIP.exe
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,aDrive.exe
-
+  - PROCESS-NAME,wetype_update.exe
+  - PROCESS-NAME,wetype_service.exe
+  - PROCESS-NAME,wetype_server.exe
+  - DOMAIN-SUFFIX,Weixin.exe
