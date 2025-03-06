@@ -26,6 +26,9 @@ payload:
   - DOMAIN,whr.085404.xyz
   - DOMAIN-SUFFIX,aigcbest.top
 
+  # EPIC
+  - DOMAIN-KEYWORD,epicgame
+
   # cdn
   - DOMAIN-SUFFIX,jsd.onmicrosoft.cn
 
